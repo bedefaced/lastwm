@@ -1,0 +1,120 @@
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body {
+    font-family: Calibri, Trebuchet MS, sans-serif;
+    font-size: 16px;
+    height: 95%;
+    min-width: 600px;
+    min-height: 550px;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: red;
+}
+
+a:hover, a:active {
+    color: red;
+    text-decoration: underline;
+}
+
+div {
+    margin: 0 0 0 0;
+}
+
+#left {
+    width: 20%;
+    float: left;
+}
+
+#right {
+    width: 20%;
+    float: right;
+}
+
+#content {
+    border: 1px solid black;
+    padding: 10px 10px 10px 10px;
+    width: 55%;
+    min-width: 650px;
+    min-height: 570px;
+    height: 95%;
+    float: left;
+}
+
+#title {
+    margin-bottom: 30px;
+    height: 15%;
+    min-height: 80px;
+}
+
+#icons {
+    float: right;
+    margin-top: 15px;
+}
+
+#body {
+    margin: 0;
+    height: 78%;
+}
+
+#footer {
+    position: relative;
+    bottom: 130px;
+}
+
+#order {
+    width: 55%;
+    margin: 0 0px 0 10px;
+    height: 100%;
+    min-height: 300px;
+    float: left;
+}
+
+#stats {
+    width: 40%;
+    margin: 0 10px 0 0px;
+    float: right;
+    height: 100%;
+    min-height: 300px;
+}
+
+.tableheader {
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+td {
+    padding-left: 5px;
+}
+
+#overlay {
+    background-color: black;
+    height: 100%;
+    left: 0px;
+    opacity: 0.90;
+    position: absolute;
+    text-align: center;
+    top: 0px;
+    visibility: visible;
+    width: 100%;
+    z-index: 1000;
+}
+
+.error {
+    border: 1px solid white;
+    color: white;
+    margin: 0px -195px 0px 0px;
+    padding: 12px 15px;
+    position: fixed;
+    right: 50%;
+    top: 25%;
+    width: 300px;
+    z-index: 100;
+}
